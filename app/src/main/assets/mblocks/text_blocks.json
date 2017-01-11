@@ -1,0 +1,205 @@
+[
+  {
+    "type": "text",
+    "message0": "“ %1 ”",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "TEXT",
+        "text": "hello"
+      }
+    ],
+    "inputsInline": true,
+    "output": "String",
+    "colour": 160,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "text_char",
+    "message0": "' %1 '",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "TEXT",
+        "text": "a"
+      }
+    ],
+    "inputsInline": true,
+    "output": "String",
+    "colour": 160,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "text_join",
+    "message0": "%1 连接 %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "A",
+        "check": [
+          "Number",
+          "String"
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "B",
+        "check": [
+          "Number",
+          "String"
+        ]
+      }
+    ],
+    "inputsInline": true,
+    "output": "String",
+    "colour": 160,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "text_to_number",
+    "message0": "%1 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TOWHAT",
+        "options": [
+          [
+            "转整数",
+            "toInt"
+          ],
+          [
+            "转小数",
+            "toFloat"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "VAR",
+        "check": "String"
+      }
+    ],
+    "output": "String",
+    "colour": 160,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "number_to_text",
+    "message0": "转字符串 %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VAR",
+        "check": "Number"
+      }
+    ],
+    "output": "String",
+    "colour": 160,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "text_length",
+    "message0": "获取长度 %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VAR",
+        "check": "String"
+      }
+    ],
+    "output": "Number",
+    "colour": 160,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "text_char_at",
+    "message0": "%1 获取第 %2 个字符",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VAR",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "AT"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 160,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "text_equals_starts_ends",
+    "message0": "%1 %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "STR1",
+        "check": "String"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "DOWHAT",
+        "options": [
+          [
+            "等于",
+            "equals"
+          ],
+          [
+            "开始于",
+            "startsWith"
+          ],
+          [
+            "结尾于",
+            "endsWith"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "STR2",
+        "check": "String"
+      }
+    ],
+    "inputsInline": true,
+    "output": [
+      "Number",
+      "Boolean"
+    ],
+    "colour": 160,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "text_compareTo",
+    "message0": "%1 比较 %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "STR1",
+        "check": "String"
+      },
+      {
+        "type": "input_value",
+        "name": "STR2",
+        "check": "String"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 160,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  }
+
+
+]

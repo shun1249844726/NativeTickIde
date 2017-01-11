@@ -1,0 +1,282 @@
+[
+  {
+    "type": "base_setup",
+    "message0": "初始化 %1 %2",
+    "args0": [
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "base_delay",
+    "message0": "延时 %1 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "UNIT",
+        "options": [
+          [
+            "毫秒",
+            "delay"
+          ],
+          [
+            "微妙",
+            "delayMicroseconds"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "DELAY_TIME",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "controls_if",
+    "message0": "如果 %1 执行 %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IF0",
+        "check": [
+          "Boolean",
+          "Number"
+        ]
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "controls_switch_case",
+    "message0": "switch %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "IF0",
+        "check": [
+          "Number",
+          "Boolean"
+        ]
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "controls_for",
+    "message0": "使用 %1 %2 从 %3 到 %4 步长为 %5 %6 执行 %7",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "VAR",
+        "text": "i"
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_value",
+        "name": "FROM",
+        "check": "Number",
+        "align": "RIGHT"
+      },
+      {
+        "type": "input_value",
+        "name": "TO",
+        "check": "Number",
+        "align": "RIGHT"
+      },
+      {
+        "type": "field_input",
+        "name": "STEP",
+        "text": "1"
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "controls_whileuntil",
+    "message0": "重复 %1 %2 执行 %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          [
+            "满足条件",
+            "WHILE"
+          ],
+          [
+            "不满足条件",
+            "UNTIL"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "BOOL",
+        "check": [
+          "Boolean",
+          "Number"
+        ]
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "controls_flow_statements",
+    "message0": "%1 循环",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "FLOW",
+        "options": [
+          [
+            "跳出",
+            "BREAK"
+          ],
+          [
+            "跳到下一个",
+            "CONTINUE"
+          ]
+        ]
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "controls_millis",
+    "message0": "系统运行时间 %1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "UNIT",
+        "options": [
+          [
+            "毫秒",
+            "millis"
+          ],
+          [
+            "微秒",
+            "micros"
+          ]
+        ]
+      }
+    ],
+    "output": "Number",
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "controls_mstimer2",
+    "message0": "MsTimer2 每隔 %1 ms %2 执行 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TIME",
+        "check": "Number"
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "controls_mstimer2_start",
+    "message0": "MsTimer2 启动",
+    "args0": [],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "controls_mstimer2_stop",
+    "message0": "MsTimer2 停止",
+    "args0": [],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "logic_negate",
+    "message0": "not %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "BOOL",
+        "check": "Boolean"
+      }
+    ],
+    "output": null,
+    "colour": 120,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  }
+
+]

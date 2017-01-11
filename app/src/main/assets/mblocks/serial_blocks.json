@@ -1,0 +1,255 @@
+[
+  {
+    "type": "serial_begin",
+    "message0": "%1 波特率 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "serial_select",
+        "options": [
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "SoftwareSerial",
+            "mySerial"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "CONTENT",
+        "check": "Number"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 65,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "serial_write",
+    "message0": "%1 原始输出 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "serial_select",
+        "options": [
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "SoftwareSerial",
+            "mySerial"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "CONTENT"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 65,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "serial_print",
+    "message0": "%1 打印 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "serial_select",
+        "options": [
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "SoftwareSerial",
+            "mySerial"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "CONTENT"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 65,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "serial_println",
+    "message0": "%1 打印（自动换行） %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "serial_select",
+        "options": [
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "SoftwareSerial",
+            "mySerial"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "CONTENT",
+        "check": "String"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 65,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "serial_print_hex",
+    "message0": "%1 打印（16进制/自动换行） %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "serial_select",
+        "options": [
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "SoftwareSerial",
+            "mySerial"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "CONTENT",
+        "check": "Number"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 65,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "serial_available",
+    "message0": "%1 有数据可读吗？",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "serial_select",
+        "options": [
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "SoftwareSerial",
+            "mySerial"
+          ]
+        ]
+      }
+    ],
+    "output": null,
+    "colour": 65,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "serial_readstr",
+    "message0": "%1 读取字符串",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "serial_select",
+        "options": [
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "SoftwareSerial",
+            "mySerial"
+          ]
+        ]
+      }
+    ],
+    "output": "String",
+    "colour": 65,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "serial_readstr_until",
+    "message0": "%1 读取字符串直到 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "serial_select",
+        "options": [
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "SoftwareSerial",
+            "mySerial"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "CONTENT",
+        "check": "String"
+      }
+    ],
+    "output": "String",
+    "colour": 65,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "serial_flush",
+    "message0": "%1 清空缓存区数据",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "serial_select",
+        "options": [
+          [
+            "Serial",
+            "Serial"
+          ],
+          [
+            "SoftwareSerial",
+            "mySerial"
+          ]
+        ]
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 65,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  }
+
+
+
+]

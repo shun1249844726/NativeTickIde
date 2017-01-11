@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_8a74ffcbdb678be1aa84c46b6e7eb98de883eda8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.3/7fe1a94c1aeb958acc876fe616922cc191f3222c/rxjava-1.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7fe1a94c1aeb958acc876fe616922cc191f3222c">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/rxjava-1.2.3_c95fab39455a280fc208fab161e20e684132091a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_8ba527f3e5fd26534da05ae9f4c3ed16a751d05f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_a41e71f686d97b79ae069c043f1000886827be88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_4af5bbae527914aa9800c044a155e11def702b83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_9f8c2bf8a5b446abbd806dc46de120e657080fce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_4844f7192e79b10402ccd4935ac37d5a403ff7c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7ed3936a3c664278ece9b83d353a1e06e63a419e">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_6aff437deb7a40054a1e1e3897358f90b1647b44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_c5766becbd8d0ca77c755278d829971a7650142d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_d6f1e71bab1a65cbfa20cc9c96983751e4720761.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_2ea2613323cf4caf83abcbda984b6e015a34bc66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_05661ca0c10bb3d58919ce7ab8452d572614a881.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_7af773c4d39bc7f17fa78757cbe7fbf12eafc4ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_6944f0db404293ad0362db9d6697a760aaf9718f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_fd6f09cba2beee1df1edc201149e42b60cda3e15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="84b72ac0fe7fa5787164e882eb7543264368557c">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/instant-run_457073f4ad3ff3eaf911185ae12c0f73d4eb4b7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_5ed6d196718535613fdcdf64691b73f81870ac9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_a8cce2056019bbe30e08cafac864b88403610c80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_cbfecd3682e9c1ed85fb31d87cf2df2708b3dd58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.1_d88e5bcd5f9c00073c9974f5655ee9aa16741f5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_00af252490dc54ba51a8ed01589ec9c856ca001b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.0_46b885158baa16cc4c9a61546bac65b48fa7c9aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/xushun/Desktop/NativeIDE-ide/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_99161d2550ccd52fa3de379b2bf6163f3e26002e.jar" />
+    </item>
+
+</items>

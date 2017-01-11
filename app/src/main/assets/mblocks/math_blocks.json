@@ -1,0 +1,311 @@
+[
+  {
+    "type": "math_number",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "NUM",
+        "text": "0"
+      }
+    ],
+    "colour": 230,
+    "output": "Number",
+    "tooltip": "A number.",
+    "helpUrl": "https://en.wikipedia.org/wiki/Number"
+  },
+  {
+    "type": "math_arithmetic",
+    "message0": "%1 %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "A",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          [
+            "+",
+            "ADD"
+          ],
+          [
+            "-",
+            "MINUS"
+          ],
+          [
+            "×",
+            "MULTIPLY"
+          ],
+          [
+            "÷",
+            "DIVIDE"
+          ],
+          [
+            "%",
+            "QUYU"
+          ],
+          [
+            "^",
+            "POWER"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "B",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "math_bit",
+    "message0": "%1 %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "A",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          [
+            "&",
+            "&"
+          ],
+          [
+            "|",
+            "|"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "B",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "math_trig",
+    "message0": "%1 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          [
+            "sin",
+            "SIN"
+          ],
+          [
+            "cos",
+            "COS"
+          ],
+          [
+            "tan",
+            "TAN"
+          ],
+          [
+            "asin",
+            "ASIN"
+          ],
+          [
+            "acos",
+            "ACOS"
+          ],
+          [
+            "atan",
+            "ATAN"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "NUM",
+        "check": "Number"
+      }
+    ],
+    "output": "Number",
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "math_to_int",
+    "message0": "%1 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          [
+            "取整",
+            "int"
+          ],
+          [
+            "取绝对值",
+            "abs"
+          ],
+          [
+            "平方",
+            "sq"
+          ],
+          [
+            "平方根",
+            "sqrt"
+          ],
+          [
+            "自然对数",
+            "log"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "A",
+        "check": "Number"
+      }
+    ],
+    "output": "Number",
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "math_max_min",
+    "lastDummyAlign0": "RIGHT",
+    "message0": "%1 ( %2 , %3 )",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          [
+            "取最大值",
+            "max"
+          ],
+          [
+            "取最小值",
+            "min"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "A",
+        "check": "Number",
+        "align": "RIGHT"
+      },
+      {
+        "type": "input_value",
+        "name": "B",
+        "check": "Number",
+        "align": "RIGHT"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "math_random_int",
+    "message0": "随机数 从 %1 到 %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "FROM",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "TO",
+        "check": "Number",
+        "align": "RIGHT"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "math_constrain",
+    "message0": "约束 %1 介于(最小值) %2 和(最大值) %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "LOW",
+        "check": "Number",
+        "align": "RIGHT"
+      },
+      {
+        "type": "input_value",
+        "name": "HIGH",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "base_map",
+    "message0": "映射 %1 从[ %2 , %3 ]到[ %4 ， %5 ]",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "NUM",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "fromLow",
+        "check": "Number",
+        "align": "RIGHT"
+      },
+      {
+        "type": "input_value",
+        "name": "fromHigh",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "toLow"
+      },
+      {
+        "type": "input_value",
+        "name": "toHigh"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  }
+]

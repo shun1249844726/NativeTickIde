@@ -1,0 +1,169 @@
+[
+  {
+    "type": "logic_compare",
+    "message0": "%1 %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "A",
+        "check": "String"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          [
+            "=",
+            "EQ"
+          ],
+          [
+            "≠",
+            "NEQ"
+          ],
+          [
+            "<",
+            "LT"
+          ],
+          [
+            "≤ ",
+            "LTE"
+          ],
+          [
+            ">",
+            "GT"
+          ],
+          [
+            "≥",
+            "GTE"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "B",
+        "check": "String"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 210,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "logic_operation",
+    "message0": "%1 %2 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "A",
+        "check": [
+          "Boolean",
+          "Number"
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "OP",
+        "options": [
+          [
+            "且",
+            "AND"
+          ],
+          [
+            "或",
+            "OR"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "B",
+        "check": [
+          "Boolean",
+          "Number"
+        ]
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 210,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "logic_negate",
+    "message0": "非 %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "BOOL",
+        "check": [
+          "Boolean",
+          "Number"
+        ]
+      }
+    ],
+    "output": "Number",
+    "colour": 210,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "logic_boolean",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "BOOL",
+        "options": [
+          [
+            "真",
+            "TRUE"
+          ],
+          [
+            "假",
+            "FALSE"
+          ]
+        ]
+      }
+    ],
+    "output": "Boolean",
+    "colour": 210,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "logic_null",
+    "message0": "空 ",
+    "args0": [],
+    "output": null,
+    "colour": 210,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  },
+  {
+    "type": "logic_true_or_false",
+    "message0": "%1 如果为真 %2 如果为假 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "A"
+      },
+      {
+        "type": "input_value",
+        "name": "B"
+      },
+      {
+        "type": "input_value",
+        "name": "C"
+      }
+    ],
+    "inputsInline": true,
+    "output": null,
+    "colour": 210,
+    "tooltip": "",
+    "helpUrl": "http://www.example.com/"
+  }
+
+]

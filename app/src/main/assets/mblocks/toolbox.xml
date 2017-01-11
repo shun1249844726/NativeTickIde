@@ -1,0 +1,276 @@
+<!--
+  ~  Copyright 2016 Google Inc. All Rights Reserved.
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+  -->
+
+<toolbox>
+    <category name="输入／输出" colour="210">
+        <block type="inout_highlow"></block>
+        <block type="inout_digital_write"></block>
+        <block type="inout_digital_read"></block>
+        <block type="inout_analog_write">
+            <value name="PIN">
+                <shadow type="pins_pwm"></shadow>
+            </value>
+            <value name="NUM">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="inout_analog_read">
+            <value name="PIN">
+                <shadow type="pins_analog"></shadow>
+            </value>
+        </block>
+
+    </category>
+    <category name="控制" colour="220">
+        <block type="base_setup"></block>
+        <block type="base_delay">
+            <value name="DELAY_TIME">
+                <shadow type="math_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="controls_if"></block>
+        <block type="controls_switch_case"></block>
+        <block type="controls_for">
+            <value name="FROM">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+            <value name="TO">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="controls_whileuntil"></block>
+        <block type="controls_flow_statements"></block>
+        <block type="controls_millis"></block>
+        <block type="controls_mstimer2">
+            <value name="TIME">
+                <shadow type="math_number">
+                    <field name="NUM">500</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="controls_mstimer2_start"></block>
+        <block type="controls_mstimer2_stop"></block>
+        <block type="logic_negate"></block>
+    </category>
+    <category name="数学" colour="230">
+        <block type="math_number"></block>
+        <block type="math_arithmetic">
+            <value name="A">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+            <value name="B">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="math_bit">
+            <value name="A">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="B">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="math_trig"></block>
+        <block type="math_to_int"></block>
+        <block type="math_max_min">
+            <value name="A">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+            <value name="B">
+                <shadow type="math_number">
+                    <field name="NUM">2</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="math_random_int">
+            <value name="FROM">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+            <value name="TO">
+                <shadow type="math_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="math_constrain">
+            <value name="LOW">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+            <value name="HIGH">
+                <shadow type="math_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="base_map">
+            <value name="fromLow">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+            <value name="fromHigh">
+                <shadow type="math_number">
+                    <field name="NUM">100</field>
+                </shadow>
+            </value>
+            <value name="toLow">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+            <value name="toHigh">
+                <shadow type="math_number">
+                    <field name="NUM">1000</field>
+                </shadow>
+            </value>
+        </block>
+    </category>
+    <category name="文本" colour="160">
+        <block type="text">
+            <field name="TEXT">hello</field>
+        </block>
+        <block type="text_char"></block>
+        <block type="text_join">
+            <value name="A">
+                <shadow type="text">
+                    <field name="TEXT">Hello</field>
+                </shadow>
+            </value>
+            <value name="B">
+                <shadow type="text">
+                    <field name="TEXT">TickIDE</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="text_to_number">
+            <value name="VAR">
+                <shadow type="text">
+                    <field name="TEXT">123</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="number_to_text">
+            <value name="VAR">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="text_length">
+            <value name="VAR">
+                <shadow type="text">
+                    <field name="TEXT">hello</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="text_char_at">
+            <value name="VAR">
+                <shadow type="text">
+                    <field name="TEXT">hello</field>
+                </shadow>
+            </value>
+            <value name="AT">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="text_equals_starts_ends">
+            <value name="STR1">
+                <shadow type="text">
+                    <field name="TEXT"></field>
+                </shadow>
+            </value>
+            <value name="STR2">
+                <shadow type="text">
+                    <field name="TEXT"></field>
+                </shadow>
+            </value>
+        </block>
+        <block type="text_compareTo">
+            <value name="STR1">
+                <shadow type="text">
+                    <field name="TEXT"></field>
+                </shadow>
+            </value>
+            <value name="STR2">
+                <shadow type="text">
+                    <field name="TEXT"></field>
+                </shadow>
+            </value>
+        </block>
+    </category>
+    <!--ddddd-->
+    <category name="逻辑" colour="210">
+        <block type="logic_compare"></block>
+        <block type="logic_operation"></block>
+        <block type="logic_negate"></block>
+        <block type="logic_boolean"></block>
+        <block type="logic_null"></block>
+        <block type="logic_true_or_false"></block>
+    </category>
+
+    <category name="串口" colour="65">
+        <block type="serial_begin">
+            <value name="CONTENT">
+                <shadow type="math_number">
+                    <field name="NUM">9600</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="serial_write"></block>
+        <block type="serial_print"></block>
+        <block type="serial_println"></block>
+        <block type="serial_print_hex"></block>
+        <block type="serial_available"></block>
+        <block type="serial_readstr"></block>
+        <block type="serial_readstr_until">
+            <value name="CONTENT">
+                <shadow type="text_char">
+                    <field name="TEXT">a</field>
+                </shadow>
+            </value>
+        </block>
+
+        <!--<block type="serial_parseint_float"></block>-->
+        <block type="serial_flush"></block>
+
+
+
+    </category>
+
+</toolbox>
